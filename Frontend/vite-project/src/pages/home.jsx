@@ -5,19 +5,9 @@ function Home() {
     <div>
       <Navbar />
 
-      <div style={styles.container}>
-        <h1>Welcome to MyStore</h1>
-        <p>Your favorite online shopping destination</p>
-      </div>
+      <h1 style={{padding:"20px"}}>Home Page</h1>
     </div>
   );
 }
-
-const styles = {
-  container: {
-    textAlign: "center",
-    marginTop: "100px"
-  }
-};
 
 export default Home;
